@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/fragment2_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/fragment2_button1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="Read received messages" />
+
+    <Button
+        android:id="@+id/fragment2_button2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="Send message to another user" />
+
+    <Button
+        android:id="@+id/fragment2_button3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="Post a status update" />
+
+    <TextView
+        android:id="@+id/fragment2_tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/fragment2_tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="  Bulletin Board: " />
+
+    <TextView
+        android:id="@+id/fragment2_tv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/fragment2_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="  UserID 151006766: I want to share a posted cache. Cache Info: XXXX" />
+
+    <TextView
+        android:id="@+id/fragment2_tv04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/fragment2_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="  UserID 151006700: I want to report a damaged cache. Cache Info: XXXX" />
+
+    <TextView
+        android:id="@+id/fragment2_tv05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/fragment2_tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="  UserID 151006711: I want to encourage you to find a cache. Cache Info: XXXX" />
+
+    <TextView
+        android:id="@+id/fragment2_tv06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="        "
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/fragment2_tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="  UserID 151006722: I want to share a newly posted cache. Cache Info: XXXX" />
+
+</LinearLayout>
